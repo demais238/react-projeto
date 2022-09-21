@@ -1,0 +1,175 @@
+.cabeca{
+  border-radius:  8%;
+  height: 70px;
+  width: 1200px;
+ margin-top: 1rem;
+ background-color:aqua;
+ text-decoration: none;  
+ justify-content: center; 
+ display: flex;
+ align-items: center;
+ 
+}
+
+#logo{
+  width: 160px;
+  height: 95px;
+  margin-left: -10rem;
+  margin-right: 3rem;
+}
+
+#bocaweb{
+  font-size: 2.5rem;
+}
+
+.centro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 30px;
+  
+}
+
+.lista{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px,1fr));
+  gap:30px;
+}
+
+.busca
+{
+  margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+#numero{
+  font-size: 35px;
+  font-weight: bold;
+  justify-content: center; 
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+
+.listas{
+  border-radius: 10px;
+  margin-top: 4rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  background-color: whitesmoke  ;
+  border-bottom: black solid 5px;
+  border-top: black solid 5px;
+}
+
+
+.inp{
+  border: none;
+  background-color: #EBEBEB;  
+  font-weight: bold;
+  font-size: 15 px;
+  text-align: center;
+  height: 55px;
+  width: 650px;
+  border-radius: 40px;
+  box-shadow: 0 3px 5px ;
+}
+
+
+
+.titulo{
+  justify-content: center; 
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top:3rem;
+  font-size: 1.4rem;
+}
+
+.usuario
+{
+  justify-content:left; 
+  display: flex;
+  align-items: center;
+  margin-left: 2rem ;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.descricao
+{
+  justify-content:left; 
+  display: flex;
+  align-items: center;  
+  font-size: 14px;
+  line-height: 1.5rem;
+  letter-spacing: 2px ;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.inclusao
+{
+  margin-top:1.3rem;
+  margin-left: 3rem;
+  color: rgb(211, 4, 4);
+
+}
+
+.palavra
+{
+  justify-content:left; 
+  display: flex;
+  align-items: center;  
+  margin-top:1.3rem;
+  margin-left: 3rem;
+  margin-bottom: 2rem;  
+  font-weight: bold;
+}
+
+.apoio{
+  width: 100%;
+  height: 90px;
+  background-color: aqua;
+  margin-top: 4rem;
+  margin-bottom: -40px;
+  border-radius: 10px;
+  justify-content:center; 
+  display: flex;
+  align-items: center;  
+}
+
+.icons{
+  width: 35px;
+  height: 35px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.apoio a:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out;
+}
+
+.bloco{
+  display: block;
+}
+
+.link{
+  margin-top: 1rem;
+  justify-content:center; 
+  display: flex;
+  align-items: center;  
+}
